@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .tab{
+        @apply ui-selected:after:bg-blue-500 relative after:content-[''] after:absolute after:block after:h-[4px] after:rounded-t-[4px] after:-bottom-[18px] after:w-[200%] after:-left-[50%]
+    }
+}
